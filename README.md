@@ -6,4 +6,4 @@ In the ConvNet's shallow layers , such as Block1_Conv1 or Block2_conv1, the Netw
 * **NOTE: If you run Tensorflow on GPU and do not have a strong GPU like Nvidia GTX 1650 (my GPU), I suggest you should not run a very high resolution image (4K) or more than 5 images at once because you will not have enough GPU memory and the code will be terminated.**
 
 **Reference:**
-\nZeiler, Matthew D., and Rob Fergus. “Visualizing and Understanding Convolutional Networks.” Computer Vision – ECCV 2014 Lecture Notes in Computer Science, 2014, pp. 818–833., doi:10.1007/978-3-319-10590-1_53.
+- Zeiler, Matthew D., and Rob Fergus. “Visualizing and Understanding Convolutional Networks.” Computer Vision – ECCV 2014 Lecture Notes in Computer Science, 2014, pp. 818–833., doi:10.1007/978-3-319-10590-1_53.
