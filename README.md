@@ -1,4 +1,4 @@
-# A-Close-Examination-of-Activations-in-Deep-Convolutional-Neural-Netword-Visualiazing-Deep-ConvNet
+# A-Close-Examination-of-Activations-in-Deep-Convolutional-Neural-Netword-using-VGG19-(Visualiazing-Deep-ConvNet)
 Convolutional Neural Network has proven its impressive performance in Deep Learning, especially in Computer Vision. It remarkably reduces the complexity in many Computer Vision tasks and make complex tasks possible, such as Real-time Object Detection (using YOLO algorithm). Inspired by the curiousity why it works so well, many prominent research scientists have conducted research to get a better understanding of what Convolutional Neural Network actually does behind the scene. Using Tensorflow 2.1, this project provides a source code which allows everyone examine and visualize the activations in different convnet layers themselves to develop a better understanding and intuition about Convolutional Neural Network. By possessing such intuition, ones may have some interesting ideas for future projects, such as Art Generator.
 
 Reference:
