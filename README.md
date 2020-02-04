@@ -8,3 +8,6 @@ In the ConvNet's shallow layers , such as Block1_Conv1 or Block2_conv1, the Netw
 
 **Reference:**
 - Zeiler, Matthew D., and Rob Fergus. “Visualizing and Understanding Convolutional Networks.” Computer Vision – ECCV 2014 Lecture Notes in Computer Science, 2014, pp. 818–833., doi:10.1007/978-3-319-10590-1_53.
+
+
+\frac{\partial^2f}{\partial x^2}
