@@ -16,6 +16,20 @@ In the ConvNet's shallow layers , such as Block1_Conv1 or Block2_conv1, the Netw
 <img src = "Layer Activations 1/Block5_Conv1.png">
 <img src = "Layer Activations 1/Block5_Pool.png">
 
+Other example:
+
+<img src = "Layer Activations 2/A_Original.png">
+<img src = "Layer Activations 2/Block1_Conv1.png">
+<img src = "Layer Activations 2/Block1_Pool.png">
+<img src = "Layer Activations 2/Block2_Conv1.png">
+<img src = "Layer Activations 2/Block2_Pool.png">
+<img src = "Layer Activations 2/Block3_Conv1.png">
+<img src = "Layer Activations 2/Block3_Pool.png">
+<img src = "Layer Activations 2/Block4_Conv1.png">
+<img src = "Layer Activations 2/Block4_Pool.png">
+<img src = "Layer Activations 2/Block5_Conv1.png">
+<img src = "Layer Activations 2/Block5_Pool.png">
+
 
 * **NOTE: If you run Tensorflow on GPU and do not have a strong GPU like Nvidia GTX 1650 (my GPU), I suggest you should not run a very high resolution image (4K) or more than 5 images at once because you will not have enough GPU memory and the code will be terminated.**
 
