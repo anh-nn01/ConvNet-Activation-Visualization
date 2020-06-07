@@ -30,6 +30,10 @@ Other example:
 <img src = "Layer Activations 2/Block5_Conv1.png">
 <img src = "Layer Activations 2/Block5_Pool.png">
 
+**Explanation:**
+* As explained in the paper in the reference, deeper layers in convnet learns to capture more abstract features. For example, given a human face, shallow layers try to capture simple features such as edges, vertical lines, 45-degree lines, etc, while deep layers try to capture complicated features such as eyes, nose, mouth, etc.
+* This idea of convnet's mechanism is shown exactly via the activations above. Notice in shallow layers, we can still see clearly the general shapes of the image, as they are the activations of simple features. However, when we move deeper, the activations represented are very abstract to human eyes. It is because one activated pixel in deeper layers are much more meaningful than one activated pixel in shallower layer. For example, one pixel may represent the eye of the girl.
+* This idea is important as it helps extract the most important features in the image, thus reduce the dimensions of the input significantly while still retaining important infomation, thus improving efficiency in training.
 
 * **NOTE: If you run Tensorflow on GPU and do not have a strong GPU like Nvidia GTX 1650 (my GPU), I suggest you should not run a very high resolution image (4K) or more than 5 images at once because you will not have enough GPU memory and the code will be terminated.**
 
